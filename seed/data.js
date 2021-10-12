@@ -1,6 +1,6 @@
 import db from '../db/connection.js'
 import Post from '../models/post.js'
-import Post from '../user/post.js'
+import User from '../models/user.js'
 import bcrypt from 'bcrypt'/* authentication */ 
 
 const insertData = async () => {
