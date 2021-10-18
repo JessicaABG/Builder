@@ -1,0 +1,56 @@
+# Query: price
+# Including: ./client
+# ContextLines: 1
+
+20 results - 8 files
+
+client/src/components/Post/Post.css:
+  25  
+  26: .price {
+  27      font-size: 18px;
+
+client/src/components/Post/Post.jsx:
+   9                  <div className="post-name">{props.name}</div>
+  10:                 <div className="price">{`$${props.price}`}</div>
+  11              </Link>
+
+client/src/components/Sort/Sort.jsx:
+  14                  <option value="name-descending">&nbsp; Alphabetically, Z-A &nbsp;</option>
+  15:                 <option value="price-ascending">&nbsp; Price, low to high &nbsp;</option>
+  16:                 <option value="price-descending">&nbsp; Price, high to low &nbsp;</option>
+  17              </select>
+
+client/src/screens/PostCreate/PostCreate.css:
+  32  
+  33: .input-price {
+  34      padding-left: 10px;
+
+client/src/screens/PostCreate/PostCreate.jsx:
+  11      imgURL: '',
+  12:     price: '',
+  13    })
+
+  46          <input
+  47:           className='input-price'
+  48:           placeholder='Price'
+  49:           value={post.price}
+  50:           name='price'
+  51            required
+
+client/src/screens/PostDetail/PostDetail.css:
+  18  
+  19: .price {
+  20      font-size: 28px;
+
+client/src/screens/PostDetail/PostDetail.jsx:
+  34            <div className='name'>{post.name}</div>
+  35:           <div className='price'>{`$${post.price}`}</div>
+  36            <div className='description'>{post.description}</div>
+
+client/src/screens/PostEdit/PostEdit.jsx:
+  74            <input
+  75:             className='input-price'
+  76:             placeholder='Price'
+  77:             value={post.price}
+  78:             name='price'
+  79              required

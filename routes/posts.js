@@ -6,8 +6,10 @@ const router = Router()
 
 router.get('/posts', controllers.getPosts)
 router.get('/posts/:id', controllers.getPost)
-router.post('/posts', restrict, controllers.createPost)
-router.put('/posts/:id', restrict, controllers.updatePost)
-router.delete('/posts/:id', restrict, controllers.deletePost)
+router.post('/posts', controllers.createPost)
+router.put('/posts/:id', controllers.updatePost)
+router.delete('/posts/:id', controllers.deletePost)
 
 export default router
+
+//router.post, put, delete add ,restrict,: router.post('/posts', controllers.createPost)"

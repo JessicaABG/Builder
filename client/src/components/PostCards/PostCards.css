@@ -1,0 +1,37 @@
+.post-cards{
+background-color: #5D6251;
+border: solid 20px #E4E2D8;
+margin: 150px 5px;
+padding: 15px;
+position: fixed;
+overflow: scroll;
+
+}
+
+/* edit individual cards here in landing page*/
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    gap: 25px;
+}
+
+.latest {
+    font-size: 20px;
+    color: rgb(56, 55, 55);
+    padding: 10px;
+    margin-top: 40px;
+}
+
+@media (max-width: 500px) {
+    .post-cards {
+        width: 90vw;
+        padding: 20px;
+        margin: 0px;
+    }
+    .cards {
+        margin: 0 -20px;
+    }
+}

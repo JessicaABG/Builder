@@ -1,0 +1,72 @@
+.create-form {
+    padding-top: 50px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    border: solid 20px #E4E2D8;
+
+}
+
+input:focus, textarea:focus, select:focus {
+    border:1px solid #966363;
+}
+
+input, textarea {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#EEEBDE;
+    /* border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden; */
+}
+
+textarea {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-name {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.servicer {
+    padding-left: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.input-image-link {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.submit-button {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #E4E2D8;
+    color: black;
+    border: none;
+    box-shadow: 2px 2px 10px 2px #CECECE;
+    cursor: pointer;
+}
+
+
+@media (max-width: 500px) {
+    .create-form {
+        padding-top: 150px;
+    }
+    
+    input, textarea {
+        font-size: 28px;
+    }
+}

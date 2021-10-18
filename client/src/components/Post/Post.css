@@ -1,0 +1,41 @@
+.post {
+    background-color: #EEE7C2;
+    display: flexbox;
+    margin: 5px;
+    box-shadow: 0 0 3px 1px #cecece;
+    height: 300px;
+    width: 250px;
+}
+
+.post:hover {
+    transform: scale(1.02);
+    opacity: .9;
+}
+
+.post-image {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+}
+
+.post-name {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.price {
+    font-size: 18px;
+    padding: 10px;
+}
+
+@media (max-width: 500px) {
+    .post {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .post-image {
+        width: 180px;
+        margin: 15px;
+        padding: 10px;
+    }
+}

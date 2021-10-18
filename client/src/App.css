@@ -10,4 +10,35 @@ body{
   padding: 5%;
   display: flexbox;
   flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+.link{
+  display: flex;
+
+  flex-direction: column;
+}
+.app{
+  display: flexbox;
+  flex-wrap: wrap;
+}
+.pageLabel{
+  background-color: #E4E2D8;
+  /* display: flex;
+  justify-content: center; */
+  padding-top: 10px;
+  text-align: center;
+  width: 700px;
+  height: 50px;
+}
+.pageLabelDiv{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.signInUp{
+  background-color: #EEE7C2;
 }

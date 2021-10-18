@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+
+.topNav {
+    flex: 1;
+    position: fixed;
+    width: 100%;
+    background-color: #E4E2D8;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    padding: 10px 0;
+    box-shadow: 0px 0px 1px 0px #CECECE;
+    width: 100%;
+}
+
+.logo {
+    background-color: #EEEBDE;
+    font-family: 'IM Fell English SC', serif;
+    text-align: left;
+    font-size: 64px;
+    letter-spacing: 2px;
+    flex: 1;
+    max-width: 30vw;
+    color: rgba(220, 223, 11, 0.507);
+    text-shadow: rgb(0, 0, 0);
+    background: url("https://images.unsplash.com/photo-1515446134809-993c501ca304?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80") center;
+    background-clip: text;
+    
+
+}
+
+.logo:hover {
+    transform: scale(1.5);
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.link {
+    flex: 1;
+    width: 25px;
+    background-color: #EEE7C2;
+}
+.link:active{
+    border: 2px solid tan;
+
+}
+
+.welcome {
+    padding: 0 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 500px) {
+    nav {
+        width: 98%;
+    }
+    .logo {
+        max-width: 50%;
+    }
+    /* .links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 50vw;
+    } */
+    .link {
+        padding: 3px;
+    }
+}

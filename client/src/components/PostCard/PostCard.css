@@ -1,0 +1,47 @@
+.card {
+    background-color: #EEE7C2;
+    display: flexbox;
+    margin: 5px;
+    box-shadow: 0 0 3px 1px #cecece;
+
+}
+
+.card:hover {
+    transform: scale(1.02);
+    opacity: .9;
+
+}
+.post-card{
+
+height: 250px;
+width: 250px;
+}
+
+.post-card-image {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+
+    
+
+}
+
+/* .post-card a {
+    text-decoration: underline;
+    letter-spacing: .7px;
+} */
+
+@media (max-width: 500px) {
+    .post-card {
+        padding: 10px;
+        padding-bottom: 25px;
+        margin: 10px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .post-card-image {
+        width: 180px;
+        padding: 10px;
+        margin: 4px;
+    }
+}

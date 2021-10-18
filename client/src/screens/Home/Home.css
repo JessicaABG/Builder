@@ -1,0 +1,10 @@
+.home{
+display: flex;
+justify-content: center;
+margin-top: 100px;
+} 
+@media (max-width: 500px) {
+    .home {
+        padding: 100px 40px;
+    }
+}
